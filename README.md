@@ -72,3 +72,21 @@ apt install php-mysql
 ```bash
 apt install php-pgsql
 ```
+
+## Instalar bootstrap con npm en proyecto laravel
+
+```bash
+npm install bootstrap --save-dev
+```
+
+En el archivo "myproject/resources/sass/app.scss"
+
+```bash
+@import 'bootstrap/scss/bootstrap';
+```
+
+En el archivo "myproject/resources/js/app.js
+
+```bash
+import * as bootstrap from 'bootstrap';
+```
