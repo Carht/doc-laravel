@@ -90,3 +90,8 @@ En el archivo "myproject/resources/js/app.js
 ```bash
 import * as bootstrap from 'bootstrap';
 ```
+## Instalar scss
+
+```bash
+npm install sass --save-dev
+```
