@@ -1,4 +1,4 @@
-# doc-laravel
+# Doc Laravel GNU/Linux
 Documentación para instalar y configurar proyectos usando Laravel.
 
 ## Instalación en Debian 11 desde cero.
@@ -57,4 +57,18 @@ emacs /etc/apache2/sites-available/myproject.conf
 a2enmod rewrite
 a2ensite myproject.conf
 systemctl restart apache2
+```
+
+## PHP-laravel & Bases de datos
+
+* MariaDB
+
+```bash
+apt install php-mysql
+```
+
+* Postgres
+
+```bash
+apt install php-pgsql
 ```
